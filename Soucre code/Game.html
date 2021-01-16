@@ -30,7 +30,7 @@
                         <div class="column">12</div>
                         <div class="column">11</div>
                         <div class="column">25</div>
-                        <audio controls autoplay>
+                        <audio controls ="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 3000)">
                             <source src="../Audio/theme-of-the-hard-boiled-heavies.mp3" type="audio/ogg">
                             <source src="../Audio/theme-of-the-hard-boiled-heavies.mp3" type="audio/mpeg">
                           </audio>
